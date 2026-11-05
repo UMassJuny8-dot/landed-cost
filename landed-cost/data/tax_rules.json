@@ -1,0 +1,57 @@
+{
+  "note": "과세 기준과 부가세율은 설계용 참고값입니다. verified가 false인 항목은 화면에 '확인 필요'로 표시됩니다. 실제 수출 전에는 각 나라 세관·세무 당국의 원문을 확인하세요.",
+  "checked_on": "2026-11-05",
+  "regions": {
+    "eu": {
+      "name": "유럽연합(EU)",
+      "basis": "CIF",
+      "basis_note": "EU 관세법상 과세가격에는 EU 국경까지의 운임·보험료가 포함됩니다.",
+      "members": {
+        "DE": {"name": "독일", "currency": "EUR", "vat": 19, "verified": true},
+        "FR": {"name": "프랑스", "currency": "EUR", "vat": 20, "verified": true},
+        "IT": {"name": "이탈리아", "currency": "EUR", "vat": 22, "verified": true},
+        "ES": {"name": "스페인", "currency": "EUR", "vat": 21, "verified": true},
+        "NL": {"name": "네덜란드", "currency": "EUR", "vat": 21, "verified": true},
+        "PL": {"name": "폴란드", "currency": "EUR", "vat": 23, "verified": true, "currency_note": "폴란드는 즐로티(PLN)를 쓰지만 등록 환율이 없어 유로로 표시합니다."}
+      }
+    },
+    "us": {
+      "name": "미국",
+      "currency": "USD",
+      "basis": "FOB",
+      "basis_note": "미국은 거래가격(FOB) 기준으로 과세하며 국제 운임·보험료는 과세가격에서 빠집니다.",
+      "vat": 0,
+      "vat_note": "연방 부가세가 없습니다. 주(州) 판매세는 소매 단계에서 붙으므로 계산에서 뺍니다.",
+      "mpf": {"rate": 0.3464, "min": 34.58, "max": 670.86, "period": "FY2027 (2026-10-01부터)", "source_url": "https://www.ghy.com/trade-compliance/cbp-customs-user-fees-fy-2026/", "verified": true},
+      "hmf": {"rate": 0.125, "applies": "sea", "verified": true},
+      "verified": true
+    },
+    "jp": {"name": "일본", "currency": "JPY", "basis": "CIF", "vat": 10, "vat_label": "소비세", "verified": true},
+    "cn": {
+      "name": "중국", "currency": "CNH", "basis": "CIF", "vat": 13, "vat_label": "수입 증치세",
+      "consumption_tax": {"rate": 15, "label": "고급 화장품 소비세", "applies_note": "판매가 기준 ml·g당 10위안, 장(片)당 15위안 이상인 고급 화장품에만 붙습니다.", "verified": false},
+      "verified": true
+    },
+    "uae": {"name": "UAE", "currency": "AED", "basis": "CIF", "vat": 5, "verified": true},
+    "eac": {
+      "name": "러시아(EAEU)", "currency": "RUB", "basis": "CIF", "basis_note": "EAEU 관세 영역 국경까지의 운송비가 과세가격에 포함됩니다.",
+      "vat": 22, "vat_note": "2026년 1월 1일부터 20%에서 22%로 인상되었습니다.", "source_url": "https://www.vatupdate.com/2026/01/16/russia-raises-standard-vat-to-22-and-lowers-thresholds-for-simplified-and-patent-tax-regimes/", "verified": true
+    },
+    "asean": {
+      "name": "ASEAN",
+      "basis": "CIF",
+      "members": {
+        "VN": {"name": "베트남", "currency": "VND", "vat": 10, "vat_note": "일부 품목은 2026년 말까지 8%로 감면됩니다. 화장품 감면 대상 여부를 확인하세요.", "source_url": "https://www.dfdl.com/insights/legal-and-tax-updates/vietnam-extension-of-the-reduced-8-vat-rate-to-31-december-2026/", "verified": false},
+        "TH": {"name": "태국", "currency": "THB", "vat": 7, "verified": true},
+        "ID": {"name": "인도네시아", "currency": "IDR", "vat": 11, "vat_note": "명목 세율 12%에 과세표준 11/12를 곱해 실효 11%로 계산합니다. 수입 시 선납 소득세(PPh 22)는 계산에서 뺍니다.", "verified": false},
+        "SG": {"name": "싱가포르", "currency": "SGD", "vat": 9, "vat_label": "GST", "verified": true},
+        "MY": {"name": "말레이시아", "currency": "MYR", "vat": 10, "vat_label": "판매세", "verified": false},
+        "PH": {"name": "필리핀", "currency": "USD", "vat": 12, "verified": true, "currency_note": "등록 환율이 없어 달러로 표시합니다."},
+        "BN": {"name": "브루나이", "currency": "USD", "vat": 0, "vat_note": "부가세 제도가 없습니다.", "verified": true, "currency_note": "등록 환율이 없어 달러로 표시합니다."},
+        "KH": {"name": "캄보디아", "currency": "USD", "vat": 10, "verified": false, "currency_note": "등록 환율이 없어 달러로 표시합니다."},
+        "LA": {"name": "라오스", "currency": "USD", "vat": 10, "verified": false, "currency_note": "등록 환율이 없어 달러로 표시합니다."},
+        "MM": {"name": "미얀마", "currency": "USD", "vat": null, "vat_note": "상업세 세율을 확인하지 못했습니다. 직접 입력하세요.", "verified": false, "currency_note": "등록 환율이 없어 달러로 표시합니다."}
+      }
+    }
+  }
+}

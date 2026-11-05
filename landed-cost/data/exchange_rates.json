@@ -1,0 +1,62 @@
+{
+  "as_of": "2026-09-27",
+  "source": "한국수출입은행 (KEXIM)",
+  "source_url": "https://www.koreaexim.go.kr/",
+  "rates": [
+    {
+      "currency": "USD",
+      "krw_rate": 1335.50,
+      "unit": 1
+    },
+    {
+      "currency": "CNH",
+      "krw_rate": 182.30,
+      "unit": 1
+    },
+    {
+      "currency": "JPY",
+      "krw_rate": 895.20,
+      "unit": 100
+    },
+    {
+      "currency": "EUR",
+      "krw_rate": 1410.60,
+      "unit": 1
+    },
+    {
+      "currency": "AED",
+      "krw_rate": 363.60,
+      "unit": 1
+    },
+    {
+      "currency": "RUB",
+      "krw_rate": 14.50,
+      "unit": 1
+    },
+    {
+      "currency": "VND",
+      "krw_rate": 5.42,
+      "unit": 100
+    },
+    {
+      "currency": "THB",
+      "krw_rate": 40.50,
+      "unit": 1
+    },
+    {
+      "currency": "IDR",
+      "krw_rate": 8.75,
+      "unit": 100
+    },
+    {
+      "currency": "SGD",
+      "krw_rate": 1030.20,
+      "unit": 1
+    },
+    {
+      "currency": "MYR",
+      "krw_rate": 310.40,
+      "unit": 1
+    }
+  ]
+}
