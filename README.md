@@ -3,9 +3,9 @@
 > 화장품 제품 설명으로 **HS 코드 후보를 근거와 함께** 찾고, 목적지별 **관세·FTA 세율·수입 부가세·환율**을 합쳐
 > 현지 도착 원가(착지가)를 원화와 현지 통화로 계산하는 1인 프로젝트입니다.
 
-![tests](https://github.com/<GitHub 아이디>/landed-cost/actions/workflows/tests.yml/badge.svg)
+![tests](https://github.com/UMassJuny8-dot/landed-cost/actions/workflows/tests.yml/badge.svg)
 
-- 서비스: `<Streamlit 배포 주소>`
+- 서비스: https://landed-cost-mquqxnjmkxf45xz2dcugvb.streamlit.app/
 - 만든 사람: 황준영 · KITA AX마스터 과정
 
 ## 왜 만들었나
